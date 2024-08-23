@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Travel Agency</h1>
+      <nav class="sticky-nav">
+        <ul class="none">
+          <li ><a href="#story">Stories</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="write-to-us">Write To Us</a></li>
+        </ul>
+      </nav>
+      <div>
+        <ul class="social-media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-solid fa-envelope"></i>
+        </ul>
+      </div>
+    </header>
+    <section class="greetings">
+      <article>
+        <div class="content">
+          <div class="text">
+            <h3>Let's Hit The Road</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              tristique rhoncus efficitur. Cras maximus pharetra dolor. Nulla
+              maximus cursus ultricies. Pellentesque vitae est lacinia risus
+              viverra tristique.
+            </p>
+            <p>
+              Praesent nisi neque, maximus at lectus id, pulvinar rutrum ligula.
+              Duis et sollicitudin mauris. Suspendisse et lobortis est, eget
+              dapibus nunc.
+            </p>
+            <button>Start</button>
+          </div>
+          <div class="image">
+            <img src="./Asset/image.png" alt="campfire" />
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="story">
+      <article class="story-content">
+        <div class="content">
+          <div class="text">
+            <h3>Story</h3>
+            <p>
+              Duis vitae pretium ligula. Aliquam erat volutpat. Duis libero dui,
+              faucibus et aliquam et, efficitur ac felis. Donec non gravida
+              enim, sed gravida erat. Sed laoreet nisl sit amet urna tincidunt
+              varius. Cras egestas congue metus, id sodales risus venenatis eu.
+              Ut varius posuere elit ac porta.
+            </p>
+            <button>More</button>
+          </div>
+          <div class="image">
+            <img src="./Asset/camping.png" alt="People camping" />
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="gallery" class="gallery-container">
+      <h3>Gallery</h3>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="./Asset/image (2).png" alt="Image 1" />
+          <div class="overlay">
+            <h3>Beautiful Destination</h3>
+            <p>This is a wonderful place to visit.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Asset/image (3).png" alt="Image 2" />
+          <div class="overlay">
+            <h3>Adventure Awaits</h3>
+            <p>Get ready for an amazing adventure.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Asset/image (4).png" alt="Image 3" />
+          <div class="overlay">
+            <h3>Relaxing Retreat</h3>
+            <p>Enjoy a peaceful and relaxing retreat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feature-container" id="features">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature-item">
+          <i class="fa-solid fa-plane-departure"></i>
+          <h3>Easy Booking</h3>
+          <p>Book your trips effortlessly with our user-friendly platform.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-hotel"></i>
+          <h3>Luxury Hotels</h3>
+          <p>Stay in world-class hotels and enjoy exceptional comfort.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-map-signs"></i>
+          <h3>Guided Tours</h3>
+          <p>Explore new destinations with our experienced tour guides.</p>
+        </div>
+        <div class="feature-item">
+          <i class="fa-solid fa-bus"></i>
+          <h3>Transport Service</h3>
+          <p>Travel hassle-free with our reliable transport services.</p>
+        </div>
+      </div>
+    </section>
+    <section class="write-to-us" id="write-to-us">
+      <div class="form-container">
+        <form action="">
+          <div class="input-info">
+            <h3>Write To Us</h3>
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name" />
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Enter your email" />
+
+            <label for="phone">Phone: </label>
+            <input
+              type="text"
+              id="phone"
+              placeholder="Enter your phone number"
+            />
+          </div>
+
+          <div class="radio-button">
+            <label for="contact">Contact me via: </label>
+            <input type="radio" name="contact" id="contact-email" />
+            <label for="contact-email">Email</label>
+
+            <input type="radio" name="contact" id="contact-phone" />
+            <label for="contact-phone">Phone</label>
+
+            <input type="radio" name="contact" id="contact-telegram" />
+            <label for="contact-telegram">Telegram</label>
+          </div>
+
+          <div class="select-topic">
+            <label for="topic">Topic: </label>
+            <select name="topic" id="topic">
+              <option value="story">Post My Story</option>
+              <option value="tiktok">Share to TikTok</option>
+              <option value="facebook">Share to Facebook</option>
+              <option value="instagram">Share to Instagram</option>
+              <option value="other">Share to Other</option>
+            </select>
+          </div>
+
+          <div class="message-box">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" id="human-check" />
+            <label for="human-check">I am a human</label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <ul class="social-media">
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+      </ul>
+      <p>&copy; ChouMonyrith 2024</p>
+    </footer>
+  </body>
+</html>
